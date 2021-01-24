@@ -1,0 +1,37 @@
+@import "../../../assets/styles/variables.scss";
+@import "../../../assets/styles/mixins.scss";
+
+.field {
+    position: relative;
+}
+
+.fieldTitle {
+    @include flexbox(center, flex-start);
+    margin: 20px -10px;
+
+    &>* {
+        margin: 0 10px;
+    }
+}
+
+.fieldTip {
+    position: absolute;
+}
+
+.resultButtonWrapper {
+    @include flexbox();
+    width: 100%;
+    margin: 20px 0;
+}
+
+.resultButton {
+    opacity: 0.6;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+
+.magicWand {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}

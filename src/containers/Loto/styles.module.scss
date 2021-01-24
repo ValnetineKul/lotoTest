@@ -1,0 +1,18 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
+
+.lotoGameWrapper {
+    @include flexbox(flex-start, center);
+    padding: 20px;
+    height: 100vh;
+    background: linear-gradient(180deg, #4568DC 0%, #B06AB3 100%),
+        linear-gradient(0deg, #EF8E48, #EF8E48);
+}
+
+.fieldsWrapper {
+    position: relative;
+    min-height: 300px;
+    min-width: 340px;
+    width: 80%;
+    border-radius: 3px;
+}

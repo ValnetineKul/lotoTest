@@ -1,0 +1,21 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
+
+.lotoCell {
+  height: 40px;
+  width: 40px;
+  box-shadow: none;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+
+  &:hover {
+    background: #ba9400
+  }
+}
+
+.selected {
+  transform: scale(0.9);
+  background: #FFD205 !important;
+}
